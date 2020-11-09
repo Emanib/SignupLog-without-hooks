@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    margin-top: 0.8em;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13em;
+}
+
+.register-input{
+    font-size: 15px;
+    border: 1px solid #8692A6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 15px;
+}
+.error{
+    font-size: 15px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 15px;
+}
+form .error-checkbox{
+    color: red;
+}
+input::placeholder{
+    color: #8692A6;
+    font-family: "Inter", sans-serif;
+}
+.i-agree{
+    margin : 5px;
+}
+.agree-checkbox{
+    margin-left: -2.8em;
+    margin-top: 1.5em;
+}
+.checkbox-err{
+    color: red;
+    font-size: 200px;
+}
+
+.submit
+{
+    padding:12px;
+    margin:5px;
+    width:100%;
+}
+.btn2
+{
+    padding:12px;
+    width:100%;
+    margin:5px;
+   
+
+    
+}
